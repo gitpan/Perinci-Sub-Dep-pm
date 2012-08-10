@@ -1,0 +1,51 @@
+{
+   "abstract" : "Depend on a Perl module",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perinci-Sub-Dep-pm",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Perinci::Util" : 0,
+            "Rinci" : "v1.1.22",
+            "Sort::Versions" : 0,
+            "perl" : "5.010001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Perinci::Sub::DepChecker" : "0.07",
+            "Test::More" : "0.96"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://metacpan.org/release/Perinci-Sub-Dep-pm",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Perinci-Sub-Dep-pm"
+      }
+   },
+   "version" : "0.28"
+}
+

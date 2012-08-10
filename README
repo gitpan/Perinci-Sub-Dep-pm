@@ -1,0 +1,45 @@
+NAME
+    Perinci::Sub::Dep::pm - Depend on a Perl module
+
+VERSION
+    version 0.28
+
+SYNOPSIS
+     # in function metadata
+     deps => {
+         ...
+         pm => 'Foo::Bar',
+     }
+
+     # specify version requirement
+     deps => {
+         ...
+         pm => 'Foo::Bar >= 0.123',
+     }
+
+     # specify multiple modules
+     deps => {
+         all => [
+             {pm => 'Foo'},
+             {pm => 'Bar >= 1.23'},
+             {pm => 'Baz'},
+         ],
+     }
+
+     # specify alternatives
+     deps => {
+         any => [
+             {pm => 'Qux'},
+             {pm => 'Quux'},
+         ],
+     }
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
