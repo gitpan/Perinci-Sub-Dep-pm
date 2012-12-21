@@ -4,9 +4,9 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::Util qw(declare_function_dep);
+use Perinci::Sub::DepUtil qw(declare_function_dep);
 
-our $VERSION = '0.28'; # VERSION
+our $VERSION = '0.29'; # VERSION
 
 declare_function_dep(
     name => 'pm',
@@ -46,7 +46,7 @@ Perinci::Sub::Dep::pm - Depend on a Perl module
 
 =head1 VERSION
 
-version 0.28
+version 0.29
 
 =head1 SYNOPSIS
 

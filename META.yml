@@ -16,11 +16,11 @@ meta-spec:
   version: 1.4
 name: Perinci-Sub-Dep-pm
 requires:
-  Perinci::Util: 0
+  Perinci::Sub::DepUtil: 0
   Rinci: v1.1.22
   Sort::Versions: 0
   perl: 5.010001
 resources:
   homepage: http://metacpan.org/release/Perinci-Sub-Dep-pm
   repository: http://github.com/sharyanto/perl-Perinci-Sub-Dep-pm
-version: 0.28
+version: 0.29

@@ -2,7 +2,7 @@ NAME
     Perinci::Sub::Dep::pm - Depend on a Perl module
 
 VERSION
-    version 0.28
+    version 0.29
 
 SYNOPSIS
      # in function metadata

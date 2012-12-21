@@ -19,13 +19,13 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Perinci-Sub-Dep-pm",
-  "dist_version" => "0.28",
+  "dist_version" => "0.29",
   "license" => "perl",
   "module_name" => "Perinci::Sub::Dep::pm",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Perinci::Util" => 0,
+    "Perinci::Sub::DepUtil" => 0,
     "Rinci" => "v1.1.22",
     "Sort::Versions" => 0,
     "perl" => "5.010001"

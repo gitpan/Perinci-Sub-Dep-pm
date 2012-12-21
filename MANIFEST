@@ -13,3 +13,4 @@ t/01-basics.t
 t/lib/TestDep.pm
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+t/release-rinci.t
